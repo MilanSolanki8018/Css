@@ -1,0 +1,48 @@
+h1{
+    border: 2px solid hotpink;
+    width: 33.33%; 
+}
+
+#outer{
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+    background-color: hotpink;
+}
+
+#inner{
+    border: 2px solid;
+    width: 30%;
+    height: 30%;
+    background-color: aquamarine;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+#one{
+    border: 2px  solid white;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(238, 255, 105);
+    margin-top: 20px;
+}
+/* em is use text and padding... parent classs and self class font size px to convert em */
+#two{
+    border: 2px solid;
+    background-color: blueviolet;
+    width: 30%;
+    height: 30%;
+    font-size: 2em;
+    padding: 1em;
+}
+
+button{
+    border: 3px solid green;
+    border-radius: 10px;
+    font-size: 2em;
+    padding: 0.5em;
+    margin-top: 0.5em;
+}
+
+/* rem property set root element */
+

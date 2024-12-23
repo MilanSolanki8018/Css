@@ -1,0 +1,32 @@
+/* Seudo Class */
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+button:active{
+    background-color: brown;
+}
+
+input[type="radio"]:checked+label{
+    color:red;
+    font-size:30px;
+}
+
+p:nth-of-type(2n){
+    background-color: blueviolet;
+}
+
+/* Seudo Element */
+h1::first-letter{
+    color: blue;
+}
+
+p ::selection{
+    background-color: brown;
+}
+
+.line::first-line{
+    color:aquamarine;
+}

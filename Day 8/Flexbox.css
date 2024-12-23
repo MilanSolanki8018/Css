@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+}
+
+h1::first-letter{
+    color: brown;
+}
+
+#contener{
+    width: 900px;
+    height: 300px;
+    margin: 0px auto;
+    background-color: aliceblue;
+    box-shadow: 2px 2px 8px black;
+    display: flex;
+    flex-direction: row;
+    /* Four type direction : row, column, row-reverse, column-revers */
+    justify-content: space-evenly;
+    /* Extra space: center,flex-end, flex-start, space-between, space-around, space-evenly*/
+}
+
+#contener div{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+
+}

@@ -1,0 +1,41 @@
+h1{
+    text-align: center;
+}
+
+h1::first-letter{
+    color: brown;
+}
+
+#contener{
+    width: 900px;
+    height: 300px;
+    margin: 0px auto;
+    background-color: aliceblue;
+    box-shadow: 2px 2px 8px black;
+    display: flex;
+    flex-direction: row;
+    /* Four type direction : row, column, row-reverse, column-revers */
+    /* justify-content: space-evenly; */
+    /* Extra space: center,flex-end, flex-start, space-between, space-around, space-evenly*/
+    /* flex-wrap: wrap; */
+}
+
+#ind{
+    align-self: center;
+    /* alige-self and flex-sizing is perticular on elment set direction */
+    flex-basis: 500px;
+    /* flex-grow: 2; */
+    flex-shrink: 2;
+}
+
+#green{
+    /* flex-basis: 250px; */
+   flex-shrink:2;
+}
+
+#contener div{
+    height: 100px;
+    width: 200px;
+    text-align: center;
+
+}

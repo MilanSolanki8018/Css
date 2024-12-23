@@ -1,0 +1,9 @@
+div{
+    width: 500px;
+    height: 400px;
+    background-color: forestgreen;
+    margin: auto;
+    background-image: url(MSD.jpeg);
+    background-size: cover;
+    /* contain,auto */
+}

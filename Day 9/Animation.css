@@ -1,0 +1,65 @@
+div{
+    position: relative;
+}
+#one{
+    height: 100px;
+    width: 300px;
+    background-color:darkblue;
+    color: white;
+    position: absolute;
+
+    /* Animation 
+    animation-name: Textanimate;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-delay: 1s;
+    animation-iteration-count: 3;
+    animation-direction: normal; */
+
+    /* Shorhand */
+    animation: Textanimate 3s ease-in 0s 3 alternate;
+}
+
+@keyframes Textanimate{
+   from{font-size: 15px;
+   width: 100px;}
+   to{font-size: 45px;}
+}
+
+#two{
+    height: 100px;
+    width: 300px;
+    background-color:brown;
+    color: white;
+
+    /* Animation */
+    animation-name: Coloranimate;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-delay: 0;
+    animation-iteration-count: 3;
+    animation-direction: normal;
+}
+
+@keyframes Coloranimate{
+    from{background-color: brown;
+    width: 100px;}
+    to{background-color: aqua;
+    color: black;
+    border-radius: 20px;}
+ }
+ 
+ #three{
+    height: 100px;
+    width: 300px;
+    background-color:forestgreen;
+    color: white;
+
+    animation: animate 4s ease 0s 3 normal;
+ }
+
+ @keyframes animate{
+    0%{background-color: forestgreen;}
+    50%{background-color: skyblue;}
+    100%{background-color: blueviolet;}
+ }

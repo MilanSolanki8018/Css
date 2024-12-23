@@ -1,0 +1,8 @@
+div{
+    width: 200px;
+    height: 100px;
+    background-color: forestgreen;
+    margin: 20px 20px;
+    box-shadow: 5px 5px 10px black;
+    text-align: center;
+}

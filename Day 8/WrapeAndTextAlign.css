@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+}
+
+h1::first-letter{
+    color: brown;
+}
+
+#contener{
+    width: 900px;
+    height: 400px;
+    margin: 0px auto;
+    background-color: aliceblue;
+    box-shadow: 2px 2px 8px black;
+    display: flex;
+    flex-direction: row;
+    /* Four type direction : row, column, row-reverse, column-revers */
+    /* justify-content: space-evenly; */
+    /* Extra space in main axis: center,flex-end, flex-start, space-between, space-around, space-evenly*/
+    flex-wrap: wrap;
+    /* /devide in same width every div: nowrap,wrap,wrap-revers */
+    align-items: flex-start;
+    /* use cross axis: center,flex-end, flex-start,baselin */
+    align-content: space-evenly;
+    /* Extra  space in cross axis : enter,flex-end, flex-start, space-between, space-around, space-evenly.baseline*/
+}
+
+#contener div{
+    height: 100px;
+    width: 300px;
+    text-align: center;
+
+}

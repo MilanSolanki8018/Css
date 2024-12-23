@@ -1,0 +1,32 @@
+h1{
+    text-align: center; 
+    /*text align : left/start, right/end,center and justify */
+
+    font-weight: 500;
+    /* font weigth: 100,200....900,bold... */
+
+    text-decoration: green underline;
+    /* text-decoration: underline,overline, line-througth, none*/
+}
+
+h2{
+    text-align: start;
+    letter-spacing: 10px;
+    /*letter-spacing: 5px,normal  */
+}
+h3{
+    font-size: 25px;
+    /* font-size:7%,large,small */
+}
+
+p{
+    line-height: 1.5;
+    /* line-height: 2.5,normal */
+
+    font-family: tahoma;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+
+a{
+    text-decoration: none;
+}

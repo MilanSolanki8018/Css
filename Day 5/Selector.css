@@ -1,0 +1,72 @@
+/* Univarsal selector */
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Element Selector */
+
+h1,h3{
+    /* multipale tag select use semicolon */
+    color: #b92b27;
+}
+
+/* Id Selector */
+
+#login{
+    background-color: white;
+}
+
+#signup{
+    background-color: #b92b27;
+    color: aliceblue;
+}
+
+/* Class Selector */
+
+.name{
+    color: sandybrown;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.upvote{
+    background-color: rgb(0,255,0);
+}
+
+/* Desendant Selector */
+
+nav ul li a{
+    color: cornflowerblue
+}
+/* Attribute selector */
+
+input[type="text"]{
+    color: #b92b27;
+}
+
+input[type="password"]{
+    color: darkgreen;
+}
+
+/* Adjasting Sibling Combinator*/
+
+p + h3{
+    text-decoration: gray underline;
+}
+
+.upvote + button{
+    background-color: aqua;
+}
+
+/* Child Combinator */
+
+div > input{
+    background-color: cadetblue;
+}
+
+
+/* Qs */
+
+div[id="myid"]{
+    color: green;
+}
+/* #myid p{color:green} */

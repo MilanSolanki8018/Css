@@ -1,0 +1,43 @@
+section{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+div{
+    width: 200px;
+    height: 50px;
+    border: 2px solid black;
+    margin-top: 20px;
+    text-align: center;
+    background-color: cornflowerblue;
+}
+
+div:nth-of-type(2n){
+    background-color: seagreen;
+}
+
+div:nth-of-type(3n){
+    background-color: khaki;
+}
+
+#a{
+    transform: rotate(90deg);
+}
+
+#b{
+    transform: scale(0.5);
+    /* scaleX() ,scaleY() */
+}
+
+#c{
+    transform: translate(100px ,0px);
+      /* transtateX(), translateY() */
+}
+
+#d{
+    transform: skew(30deg);
+}
+
+#e{
+    transform: rotate(20deg) translateX(200px) skew(30deg) scale(1.5);
+}
